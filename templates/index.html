@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Scraper</title>
+</head>
+<body>
+    <h1>Web Scraper</h1>
+    <form action="/scrape" method="GET">
+        <input type="text" name="website" placeholder="Enter a website URL" required>
+        <button type="submit">Scrape</button>
+    </form>
+    <div>
+        {{ data }}
+    </div>
+</body>
+</html>
